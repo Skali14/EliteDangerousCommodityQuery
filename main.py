@@ -1,4 +1,10 @@
+from imghdr import what
 import getCommodityID
+import getStation
 
-if __name__ == "__main__":
+whatToDo = input('Do you want to find a commodity or a station? ')
+
+if whatToDo == 'Commodity':
     getCommodityID.getCommodityID()
+elif whatToDo == 'Station':
+    getStation.getStationById()
