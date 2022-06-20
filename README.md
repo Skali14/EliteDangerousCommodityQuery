@@ -1,0 +1,1 @@
+Can query the exported commodity files from EDDB to find prices without the limitations of the EDDB UI.
