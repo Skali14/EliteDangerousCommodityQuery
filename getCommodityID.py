@@ -3,7 +3,7 @@ import getCommodity
 
 def getCommodityID():
 
-    name = input('Enter the name of the commodity: ')
+    name = 'Agronomic Treatment' # input('Enter the name of the commodity: ')
 
     with open ("commodities.json", "r") as f:
         data =json.load(f)
@@ -12,6 +12,6 @@ def getCommodityID():
 
     commodityID = dict(filtered[0])['id']
 
-    getCommodity.getCommodity(commodityID)
+    print(commodityID)
 
-#getCommodityID()
+    getCommodity.getCommodity(commodityID)
