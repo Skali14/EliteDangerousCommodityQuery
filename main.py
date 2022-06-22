@@ -1,4 +1,3 @@
-from imghdr import what
 import getCommodityID
 import getStation
 

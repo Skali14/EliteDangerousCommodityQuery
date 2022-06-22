@@ -12,6 +12,4 @@ def getCommodityID():
 
     commodityID = dict(filtered[0])['id']
 
-    print(commodityID)
-
     getCommodity.getCommodity(commodityID)
